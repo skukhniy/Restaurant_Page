@@ -1,6 +1,6 @@
-import menu1 from "../imgs/pizza.jpeg"
-import menu2 from '../imgs/pasta.jpeg'
-import menu3 from '../imgs/gabagool.png'
+import menu1 from "./imgs/pizza.jpeg"
+import menu2 from './imgs/pasta.jpeg'
+import menu3 from './imgs/gabagool.png'
 
 function loadItem(itemNum, imgSrc,h2innerHTML,pinnerHTML){
     

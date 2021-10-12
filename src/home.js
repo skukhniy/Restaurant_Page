@@ -1,4 +1,4 @@
-import Artie from '../imgs/artie-profile.png'
+import Artie from './imgs/artie-profile.png'
 function loadHome(){
     //frontpage
     const frontpage = document.createElement('div');

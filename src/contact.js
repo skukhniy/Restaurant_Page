@@ -1,4 +1,4 @@
-import Artie from '../imgs/artie3.png'
+import Artie from './imgs/artie3.png'
 
 function loadContact(){
     //page div
