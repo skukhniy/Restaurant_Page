@@ -1,3 +1,7 @@
+import menu1 from "../imgs/pizza.jpeg"
+import menu2 from '../imgs/pasta.jpeg'
+import menu3 from '../imgs/gabagool.png'
+
 function loadItem(itemNum, imgSrc,h2innerHTML,pinnerHTML){
     
     //create div
@@ -27,17 +31,17 @@ function loadItem(itemNum, imgSrc,h2innerHTML,pinnerHTML){
 function loadMenu(){
 
     const item1 = 'item1'
-    const img1 = "../imgs/pizza.jpeg"
+    const img1 = menu1
     const h21 = 'Pizza'
     const p1 = 'Margherita, Parmigana, Pepperoni, BBQ Chicken, Prosciutto, Ham, Hawaiian, Meat Lovers'
 
     const item2 = 'item2'
-    const img2 = '../imgs/pasta.jpeg'
+    const img2 = menu2
     const h22 = 'Pasta'
     const p2 = 'Ricotta Pasta, Creamy Pasta with Spinach, Cherry Tomato Pasta Salad, Garlic Mushroom Pasta, Sun-Dried Tomato Pesto Pasta'
 
     const item3 = 'item3'
-    const img3 = '../imgs/gabagool.png'
+    const img3 = menu3
     const h23 = 'Gabagool!'
     const p3 = "New Jersey's Finest"
 

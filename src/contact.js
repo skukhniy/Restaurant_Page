@@ -1,3 +1,5 @@
+import Artie from '../imgs/artie3.png'
+
 function loadContact(){
     //page div
     const pages = document.createElement('div');
@@ -16,7 +18,7 @@ function loadContact(){
 
     //image
     const artie2 = new Image();
-    artie2.src = '../imgs/artie3.png';
+    artie2.src = Artie;
     
     //info
     const contactDiv = document.createElement('div');

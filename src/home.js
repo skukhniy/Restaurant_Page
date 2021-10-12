@@ -1,9 +1,10 @@
+import Artie from '../imgs/artie-profile.png'
 function loadHome(){
     //frontpage
     const frontpage = document.createElement('div');
     //add image
     const artie = new Image();
-    artie.src = '../imgs/artie-profile.png';
+    artie.src = Artie;
     const label = document.createElement('p')
     label.innerHTML = 'Michelin Star chef Artie Bucco brings the tastes of Italy to scenic New Jersey. Only at Nuovo Vesuvio.'
 
