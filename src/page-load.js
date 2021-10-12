@@ -1,5 +1,3 @@
-import IMG from '../imgs/artie-profile.png'
-
 function addHeader(){
     //header
     const header = document.createElement('div');
